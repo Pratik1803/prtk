@@ -1,0 +1,100 @@
+#services{
+    height: 100vh;
+    width: 80vw;
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: column;
+}
+#services p{
+    padding-top: 10%;
+}
+#sub_services{
+    text-align: center;
+}
+#upper_service,#lower_service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 80vw;
+    position: relative;
+}
+#upper_service{
+    margin-top: 5vh;
+}
+#lower_service{
+    margin-bottom: 5vh;
+}
+#service1,#service2,#service3,#service4{
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#service1{
+    border-right: 1px solid #111;
+    border-bottom: 1px solid #111;
+    width: 0vw;
+    height: 0vh;
+    position: absolute;
+    right: 40vw;
+    bottom: 0%;
+    transition: 1s linear;
+}
+#service2{
+    border-bottom: 1px solid #111;
+    width: 0vw;
+    height: 0vh;
+    position: absolute;
+    left: 40vw;
+    bottom: 0%;
+    transition: 1s linear;
+}
+#service3{
+    border-right: 1px solid #111;
+    width: 0vw;
+    height: 0vh;
+    position: absolute;
+    right: 40vw;
+    top: 0%;
+    transition: 1s linear;
+}
+#service4{
+    width: 0vw;
+    height: 0vh;
+    position: absolute;
+    left: 40vw;
+    top: 0%;
+    transition: 1s linear;
+}
+#svg1{
+    opacity: 0;
+    transform: translateX(-20px);
+    width: 100%;
+}
+#svg2{
+    opacity: 0;
+    transform: translateX(20px);
+    width: 100%;
+}
+#svg3{
+    opacity: 0;
+    transform: translateX(-20px);
+    width: 100%;
+}
+#svg4{
+    opacity: 0;
+    transform: translateX(20px);
+    width: 100%;
+}
+
+@media only screen and (max-width : 700px){
+    .service_svg{
+        height: 40%;
+        width: 50%;
+        padding: 0.5rem;
+    }
+}
