@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
         <div id="works">
             {list.map((ele, index) => {
-                return <a target="_blank" href={listLinks[index]}><Work url={ele} title={listName[index]} key={index} /></a>
+                return <a key={index} target="_blank" href={listLinks[index]}><Work url={ele} title={listName[index]} /></a>
             })}
         </div>
     </section>

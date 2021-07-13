@@ -35,8 +35,8 @@ const LandingPage = () => {
       <img id="landingPageBannerMobile" src={mobileBanner} alt="this" />
 
       <div className="landingPage_info">
-        <span id="landingPageSpan" style={{ fontSize: '2rem' }}><p style={{ letterSpacing: '2px', marginRight: '10px', fontWeight: '500' }}>Hello, I am a </p> <h1 style={{ letterSpacing: '5px', fontWeight: '1000', maxWidth: '100vw' }} id="typewriter"> Front-End Developer</h1></span>
-        <p style={{ fontSize: "0.8rem", lineHeight: '5vh', padding: '20px 0', letterSpacing: '0px', fontWeight: '100', width: '80%' }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nulla et quae velit aliquam, repudiandae a maiores ut architecto alias!</p>
+        <span style={{ fontSize: '2rem' }}><p style={{ letterSpacing: '2px', lineHeight: "5vh", marginRight: '10px', fontWeight: '500' }}>Hello, I am a </p> <h1 style={{ letterSpacing: '5px', fontWeight: '1000', maxWidth: '100vw' }} id="typewriter">Front-End Developer</h1></span>
+        <p id="landingPage_p" style={{ fontSize: "0.8rem", padding: '20px 0', letterSpacing: '0px', fontWeight: '100', width: '80%' }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nulla et quae velit aliquam, repudiandae a maiores ut architecto alias!</p>
         <div id="social_links">
           <a target="_blank" href="">
             <svg width="15" height="20" viewBox="0 0 30 52" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -9,12 +9,14 @@ import Contact from './Contact';
 function App() {
   return (
     <>
-      <Header />
-      <LandingPage />
-      <About />
-      <Services />
-      <Portfolio />
-      <Contact />
+      <main>
+        <Header />
+        <LandingPage />
+        <About />
+        <Services />
+        <Portfolio />
+        <Contact />
+      </main>
     </>
   );
 }

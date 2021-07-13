@@ -97,4 +97,7 @@
         width: 50%;
         padding: 0.5rem;
     }
+    #sub_services{
+        height: 60vh;
+    }
 }
