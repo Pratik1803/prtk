@@ -74,13 +74,13 @@ document.getElementById("menu").addEventListener("click", () => {
     let navLinks = document.getElementsByClassName("nav_link");
     let menuTl = new TimelineMax();
     if (menuFlag === true) {
-        menuTl.to(navMenu, 0.5, { width: '30vw', opacity: '1', pointerEvents: 'all' })
+        menuTl.to(navMenu, 0.3, { width: '50vw', opacity: '1', pointerEvents: 'all' })
             .to(navLinks, 0.3, { opacity: '1', pointerEvents: 'all' });
 
         menuFlag = false;
     } else {
         menuTl.to(navLinks, 0.3, { opacity: '0', pointerEvents: 'none' })
-            .to(navMenu, 0.5, { width: '0vw', opacity: '0', pointerEvents: 'none' });
+            .to(navMenu, 0.3, { width: '0vw', opacity: '0', pointerEvents: 'none' });
         menuFlag = true;
     };
 });
