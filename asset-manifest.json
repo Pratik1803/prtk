@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/prtk/static/css/main.51dda140.chunk.css",
-    "main.js": "/prtk/static/js/main.c6e0add6.chunk.js",
-    "main.js.map": "/prtk/static/js/main.c6e0add6.chunk.js.map",
+    "main.css": "/prtk/static/css/main.b1b4d5d2.chunk.css",
+    "main.js": "/prtk/static/js/main.0486fe08.chunk.js",
+    "main.js.map": "/prtk/static/js/main.0486fe08.chunk.js.map",
     "runtime-main.js": "/prtk/static/js/runtime-main.e6e3c09d.js",
     "runtime-main.js.map": "/prtk/static/js/runtime-main.e6e3c09d.js.map",
     "static/js/2.76ae471f.chunk.js": "/prtk/static/js/2.76ae471f.chunk.js",
     "static/js/2.76ae471f.chunk.js.map": "/prtk/static/js/2.76ae471f.chunk.js.map",
     "index.html": "/prtk/index.html",
-    "static/css/main.51dda140.chunk.css.map": "/prtk/static/css/main.51dda140.chunk.css.map",
+    "static/css/main.b1b4d5d2.chunk.css.map": "/prtk/static/css/main.b1b4d5d2.chunk.css.map",
     "static/js/2.76ae471f.chunk.js.LICENSE.txt": "/prtk/static/js/2.76ae471f.chunk.js.LICENSE.txt",
     "static/media/banner.56c4397f.png": "/prtk/static/media/banner.56c4397f.png",
     "static/media/chillMountains.54d77468.png": "/prtk/static/media/chillMountains.54d77468.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e6e3c09d.js",
     "static/js/2.76ae471f.chunk.js",
-    "static/css/main.51dda140.chunk.css",
-    "static/js/main.c6e0add6.chunk.js"
+    "static/css/main.b1b4d5d2.chunk.css",
+    "static/js/main.0486fe08.chunk.js"
   ]
 }
