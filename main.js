@@ -4,7 +4,7 @@ let letter = 0;
 let word = 0;
 let direction = 'forwards';
 function typewriter() {
-    let words = ["Developer.", "UI/UX Designer.", "Freelancer.", ""];
+    let words = ["Dieveloper.", "UI/UX Designer.", "Freelancer.", ""];
     let content = words[word].slice(0, letter);
     subject.innerHTML = content;
     if (direction === "forwards") {
