@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 
 
 
-
+// "homepage": "https://Pratik1803.github.io/prtk",
 
 ReactDOM.render(
   <BrowserRouter>

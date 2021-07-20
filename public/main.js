@@ -1,3 +1,21 @@
+// Preloader Animation
+import React from "react";
+import img from "../src/images/banner.png";
+let body = document.getElementById("root");
+let progressBar = document.getElementById("load_progress");
+var queue = new createjs.LoadQueue(true);
+function handleFileLoadComplete() {
+    console.log("img loaded");
+};
+queue.on("progress", () => { });
+queue.on("fileload", handleFileLoadComplete);
+queue.loadFile("../src/images/banner.png");
+queue.on("complete", () => {
+    console.log(img);
+});
+
+
+
 //TypeWriter Animation
 const subject = document.querySelector("#typewriter");
 let letter = 0;
