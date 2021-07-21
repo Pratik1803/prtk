@@ -30,13 +30,13 @@ function typewriter() {
 typewriter();
 
 
-//Nav_menu activeClass animation
-
-
-let link1 = document.getElementById('link1');
-let link2 = document.getElementById('link2');
-let link3 = document.getElementById('link3');
-let link4 = document.getElementById('link4');
+// //Nav_menu activeClass animation for moblie
+// let links = ["link1", "link2", "link3", "link4", "link5"];
+// if (innerWidth < 700) {
+//     links.map(ele => {
+//         document.getElementById(`${ele}`).style.color = "#111";
+//     })
+// };
 
 //services svg animation
 window.addEventListener('scroll', () => {
@@ -74,7 +74,7 @@ document.getElementById("menu").addEventListener("click", () => {
     let navLinks = document.getElementsByClassName("nav_link");
     let menuTl = new TimelineMax();
     if (menuFlag === true) {
-        menuTl.to(navMenu, 0.3, { width: '50vw', opacity: '1', pointerEvents: 'all' })
+        menuTl.to(navMenu, 0.3, { width: '40vw', opacity: '1', pointerEvents: 'all' })
             .to(navLinks, 0.3, { opacity: '1', pointerEvents: 'all' });
 
         menuFlag = false;
