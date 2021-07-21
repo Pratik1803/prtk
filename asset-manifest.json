@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/prtk/static/css/main.3fb4dbe3.chunk.css",
-    "main.js": "/prtk/static/js/main.5e6cecd5.chunk.js",
-    "main.js.map": "/prtk/static/js/main.5e6cecd5.chunk.js.map",
+    "main.js": "/prtk/static/js/main.f46adbdd.chunk.js",
+    "main.js.map": "/prtk/static/js/main.f46adbdd.chunk.js.map",
     "runtime-main.js": "/prtk/static/js/runtime-main.e6e3c09d.js",
     "runtime-main.js.map": "/prtk/static/js/runtime-main.e6e3c09d.js.map",
     "static/js/2.d039f478.chunk.js": "/prtk/static/js/2.d039f478.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/prtk/index.html",
     "static/css/main.3fb4dbe3.chunk.css.map": "/prtk/static/css/main.3fb4dbe3.chunk.css.map",
     "static/js/2.d039f478.chunk.js.LICENSE.txt": "/prtk/static/js/2.d039f478.chunk.js.LICENSE.txt",
+    "static/media/Profile.5fd69d32.jpg": "/prtk/static/media/Profile.5fd69d32.jpg",
     "static/media/banner.56c4397f.png": "/prtk/static/media/banner.56c4397f.png",
     "static/media/chillMountains.54d77468.png": "/prtk/static/media/chillMountains.54d77468.png",
     "static/media/contactBanner.1ac8e8b5.png": "/prtk/static/media/contactBanner.1ac8e8b5.png",
@@ -17,7 +18,6 @@
     "static/media/parallax.d597dc66.png": "/prtk/static/media/parallax.d597dc66.png",
     "static/media/portfolio-2.ce10de58.png": "/prtk/static/media/portfolio-2.ce10de58.png",
     "static/media/portfolio1.ce428bed.png": "/prtk/static/media/portfolio1.ce428bed.png",
-    "static/media/profile.d178fcf9.png": "/prtk/static/media/profile.d178fcf9.png",
     "static/media/stayAfloat.c5f5a00b.png": "/prtk/static/media/stayAfloat.c5f5a00b.png",
     "static/media/weddingPhotographer.fc45948c.png": "/prtk/static/media/weddingPhotographer.fc45948c.png"
   },
@@ -25,6 +25,6 @@
     "static/js/runtime-main.e6e3c09d.js",
     "static/js/2.d039f478.chunk.js",
     "static/css/main.3fb4dbe3.chunk.css",
-    "static/js/main.5e6cecd5.chunk.js"
+    "static/js/main.f46adbdd.chunk.js"
   ]
 }
