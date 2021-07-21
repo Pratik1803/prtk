@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "./images/profile.png";
+import profilePic from "./images/Profile.jpg";
 
 const About = () => {
   let flag = true;
